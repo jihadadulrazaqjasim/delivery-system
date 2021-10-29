@@ -1,0 +1,221 @@
+#next{
+color: crimson;
+background-color: #5c7dc0;
+border-radius: 50px;
+}
+#next:hover{
+    background: #EAB427;
+    border-radius: 50px;
+}
+
+
+/* Styling for successModal */
+.modal-confirm {		
+color: #434e65;
+width: 525px;
+}
+.modal-confirm .modal-content { 
+padding: 20px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+}
+.modal-confirm .modal-header {
+background: #4795c9;
+border-bottom: none;   
+position: relative;
+text-align: center;
+margin: -20px -20px 0;
+border-radius: 5px 5px 0 0;
+padding: 35px;
+}
+
+
+.modal-confirm .modal-header.refused {
+  background: #c94747;
+  border-bottom: none;   
+  position: relative;
+  text-align: center;
+  margin: -20px -20px 0;
+  border-radius: 5px 5px 0 0;
+  padding: 35px;
+  }
+
+
+
+.modal-confirm h4 {
+text-align: center;
+font-size: 36px;
+margin: 10px 0;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+min-height: 40px;
+border-radius: 3px; 
+}
+.modal-confirm .close {
+position: absolute;
+top: 15px;
+right: 15px;
+color: rgb(255, 255, 255);
+text-shadow: none;
+opacity: 0.5;
+}
+.modal-confirm .close:hover {
+opacity: 0.8;
+}
+.modal-confirm .icon-box {
+color: #fff;		
+width: 95px;
+height: 95px;
+display: inline-block;
+border-radius: 50%;
+z-index: 9;
+border: 5px solid #fff;
+padding: 15px;
+text-align: center;
+}
+.modal-confirm .icon-box i {
+font-size: 64px;
+margin: -4px 0 0 -4px;
+}
+.modal-confirm.modal-dialog {
+margin-top: 80px;
+}
+
+
+
+.modal-confirm .btn, .modal-confirm .btn:active {
+color: #fff;
+border-radius: 4px;
+background: #aedefa !important;
+text-decoration: none;
+transition: all 0.4s;
+line-height: normal;
+border-radius: 30px;
+margin-top: 10px;
+padding: 6px 20px;
+border: none;
+}
+
+
+
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+background: #4795c9 !important;
+outline: none;
+}
+.modal-confirm .btn span {
+margin: 1px 3px 0;
+float: left;
+}
+
+
+
+/* Style fpr on the-way page specific confirmation modals */
+
+/* NO button */
+.modal-confirm .btn#no, .modal-confirm .btn#noR{
+color: #fff;
+border-radius: 4px;
+background: #fdbaba !important;
+text-decoration: none;
+transition: all 0.4s;
+line-height: normal;
+border-radius: 30px;
+margin-top: 10px;
+padding: 6px 20px; 
+border: none;
+}
+
+.modal-confirm .btn#no:hover, .modal-confirm .btn#no:focus, .modal-confirm .btn#noR:hover, .modal-confirm .btn#noR:focus{
+  background: #ff7777 !important;
+  outline: none;
+  }
+
+/* YES button */
+.modal-confirm .btn#yes, .modal-confirm .btn#yes:active, .modal-confirm .btn#yesR, .modal-confirm .btn#yesR:active{
+  color: #fff;
+  border-radius: 4px;
+  background: #aedefa !important;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 6px 20px;
+  border: none;
+  }
+
+
+  .modal-confirm .btn#yes:hover, .modal-confirm .btn#yes:focus, .modal-confirm .btn#yesR:hover, .modal-confirm .btn#yesR:focus {
+    background: #4795C9 !important;
+    outline: none;
+    }
+
+
+
+.modal-confirm .btn i {
+margin-left: 1px;
+font-size: 20px;
+float: right;
+}
+.trigger-btn {
+display: inline-block;
+margin: 100px auto;
+}
+
+
+
+#postAcceptedIcon{
+  background-color: rgb(201, 219, 210);
+  box-shadow: 0 5px 0 rgb(107, 173, 105);
+  color: rgb(154, 228, 145);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50%;
+}
+
+
+#postAcceptedIcon:hover {
+  background-color: #2eb63a;
+  cursor: pointer;
+}
+
+#postRejectedIcon{
+    background-color: rgb(243, 179, 179);
+  box-shadow: 0 5px 0 rgb(243, 166, 166);
+  color: rgb(188, 243, 181);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50%;
+}
+
+#postRejectedIcon:hover {
+    background-color: #cf3636;
+    cursor: pointer;
+
+}
+
+#postRejectedIcon:active,#postAcceptedIcon:active  {
+  box-shadow: none;
+  top: 5px;
+}
+
+
+/* Delivered sepcific styles */
+
+#payBackIcon{
+  background-color: #fff0c8;
+  box-shadow: 0 5px 0 rgb(185, 172, 54);
+  color: rgb(245, 239, 204);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50%;
+}
+
+#payBackIcon:hover {
+  background-color:#f1ce73;
+  cursor: pointer;
+}
